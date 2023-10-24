@@ -55,3 +55,13 @@ input {
     background-color: #e0e7ed;
     color: #161f28
 }
+
+#resultado{
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #e0e7ed;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    color: #e0e7ed;
+}
