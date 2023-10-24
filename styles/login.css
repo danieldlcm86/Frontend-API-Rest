@@ -15,7 +15,7 @@ a{
     color: #e0e7ed;
 }
 
-#formulario {
+#userForm {
     max-width: 300px;
     margin: 0 auto;
     padding: 20px;
@@ -56,7 +56,7 @@ input {
     color: #161f28
 }
 
-#resultado{
+#userInfo{
     margin: 0 auto;
     border-style: solid;
     border-color: #e0e7ed;
