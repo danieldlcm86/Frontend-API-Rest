@@ -1,0 +1,57 @@
+body {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    background-color: #272626;
+}
+
+h2{
+    margin-top: 30px;
+    text-align: center;
+    color:#e0e7ed;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #e0e7ed;
+}
+
+#formulario {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #3b4558;
+    border-radius: 5px;
+    background-color: #9ab7ee74;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: left;
+    color: #f6efefc0;
+}
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#submit {
+    background-color: #161f28;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #e0e7ed;
+    color: #161f28
+}

@@ -1,0 +1,29 @@
+body{
+    background-color: #6E7371;
+}
+
+.card_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.card{
+    max-width: 18rem;
+}
+
+#button_login {
+    background-color: #161f28;
+    color: #fff;
+    border-style: solid;
+    border-color: #e0e7ed;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#button_login:hover {
+    background-color: #e0e7ed;
+    color: #161f28
+}
