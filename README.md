@@ -6,6 +6,6 @@
 ## Instrucciones.
 1. Desde CLI, clona este repositorio en una carpeta local, usando el comando:
 ```sh
-git clone https://github.com/danieldlcm86/Frontend-API-Rest
+git clone <url>
 ```
 2. Ubica dicha carpeta y ejecútala en Visual Studio Code.

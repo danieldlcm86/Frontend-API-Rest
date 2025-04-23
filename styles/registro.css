@@ -55,3 +55,15 @@ input {
     background-color: #e0e7ed;
     color: #161f28
 }
+
+#usersInfo:empty {
+    border-style: none; 
+}
+
+#usersInfo{
+    margin: 0 auto;
+    border: none;
+    max-width: 300px;
+    text-align: center;
+    color: #e0e7ed;
+}

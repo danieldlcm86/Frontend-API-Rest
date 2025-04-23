@@ -29,3 +29,31 @@ registrar.addEventListener('click', () => {
         })
 
 })
+
+// Mostrar a todos los usuarios registrados
+    // const urlUsers = ``;
+
+    fetch(urlUsers)
+        .then(response => response.json())
+        .then(data => {
+            if (data.length === 0) {
+                usersInfo.innerHTML = `<p>No hay usuarios registrados.</p>`;
+                return;
+            }
+
+            let users = `<h3>Usuarios registrados:</h3>`;
+            data.forEach(user => {
+                users += `
+                    <div style="margin-bottom: 1rem; padding: 0.5rem; border: 1px solid #ccc; border-radius: 5px;">
+                        <p><strong>Nombre de usuario:</strong> ${user.username}</p>
+                        <p><strong>Correo electrónico:</strong> ${user.email}</p>
+                    </div>
+                `;
+            });
+
+            usersInfo.innerHTML = users;
+        })
+        .catch(error => {
+            usersInfo.innerHTML = `<p>Error al cargar los usuarios.</p>`;
+            console.error(error);
+        });
